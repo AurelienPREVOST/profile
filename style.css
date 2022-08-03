@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  min-width: fit-content;
+  max-width: 500px;
+  margin : 90px;
+  background-color: pink ;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  color: rgb(255, 0, 208) ;
+  font-size: 24px ;
+  line-height: 5px ;
+  text-align: center;
+}
+
+h1, h2{
+ margin: 60px;
+}
+
+ul{
+  padding: 0px;
+}
+
+p {
+  margin: 40px;
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: underline dotted;
+}
+
+
+.icone-align-red {
+  color:blueviolet;
+  list-style: none;
+}
+
+#photo {
+  border-radius: 50%;
+}
+
+.container {
+  line-height: 30px;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 50px;
+  background-color: rgb(176, 124, 224);
+  border-radius: 40px;
+  color: rgb(221, 198, 243);
+  box-shadow: 10px 15px 10px rgb(0 0 0 / 50%);
+}
+
+.list-inline li {
+  list-style: none;
+  display: inline;
+}
+
+.button {
+  box-shadow: 10px 15px 15px rgb(0 0 0 / 80%);
+  border-style:dotted;
+  padding: 10 30;
+  border-radius: 10px;
+  background-color: darkmagenta;
+  color:white;
+}
+
+.button:hover {
+  background-color: rgb(255, 0, 153);
+  color:darkmagenta
+}
+
+@media (max-width: 720px) {
+  body {
+    color: rgb(2, 46, 10);
+    font-size: 14px;
+    background-color:rgb(157, 189, 163)
+  }
+
+  .container{
+    color: rgb(2, 46, 10);
+    background-color: rgb(96, 233, 137);
+  }
+}
